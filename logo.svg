@@ -1,6 +1,6 @@
 
       <svg width="300" height="200" version="1.1" xmlns="http://www.w3.org/2000/svg">
-        <polygon points="150 25, 225 175, 75 175" fill="orange" stroke-width="5" />
-        <text x="150" y="150" font-size="60" text-anchor="middle" fill="black">sds</text>
+        <rect x="75" y="25" width="150" height="150" fill="blue" stroke-width="5" />
+        <text x="150" y="120" font-size="60" text-anchor="middle" fill="red">red</text>
         </svg>
       

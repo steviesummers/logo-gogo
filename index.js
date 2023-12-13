@@ -3,6 +3,7 @@ const fs = require('fs')
 
 const {Circle, Square, Triangle } = require('./lib/shapes.js')
 
+
 function generateLogo() {
     inquirer.prompt([
         {
@@ -60,8 +61,7 @@ function generateLogo() {
         fs.writeFileSync('logo.svg',logoSVG)
         console.log('generated logo')
       })
-}
+}generateLogo();
 
-generateLogo()
-
+module.exports = { generateLogo };
 
